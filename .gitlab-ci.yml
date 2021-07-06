@@ -1,0 +1,25 @@
+image: docker:latest
+
+variables:
+  GIT_CLEAN_FLAGS: none
+
+services:
+  - docker:dind
+
+stages:
+  - deploy
+
+step-deploy-production:
+  stage: deploy
+  before_script:
+    - export DYNAMIC_ENV_VAR=PRODUCTION
+  only:
+    - master
+  tags:
+    - dade-web-staging
+  script:
+    - echo setting up env $DYNAMIC_ENV_VAR
+    - sudo docker-compose down
+    - sudo docker image prune -f
+    - sudo docker-compose build --no-cache
+    - sudo COMPOSE_HTTP_TIMEOUT=200 docker-compose up -d

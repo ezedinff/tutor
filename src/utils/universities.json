@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Adama Science and Technology University",
+    "code": "ASTU"
+  },
+  {
+    "name": "Addis Ababa Science and Technology University",
+    "code": "AASTU"
+  },
+  {
+    "name": "Addis Ababa University",
+    "code": "AAU"
+  },
+  {
+    "name": "Adigrat University",
+    "code": "ADU"
+  },
+  {
+    "name": "Aksum University",
+    "code": "AKU"
+  },
+  {
+    "name": "Ambo University",
+    "code": "AMbU"
+  },
+  {
+    "name": "Arba Minch University",
+    "code": "AMU"
+  },
+  {
+    "name": "Assosa University",
+    "code": "ASSU"
+  },
+  {
+    "name": "Bahir Dar University",
+    "code": "BDU"
+  },
+  {
+    "name": "Bule Hora University",
+    "code": "BHU"
+  },
+  {
+    "name": "Debre Berhan University",
+    "code": "DBU"
+  },
+  {
+    "name": "Debre Markos University",
+    "code": "DMU"
+  },
+  {
+    "name": "Debre Tabor University",
+    "code": "DTU"
+  },
+  {
+    "name": "Dilla University",
+    "code": "DIU"
+  },
+  {
+    "name": "Dire Dawa University",
+    "code": "DDU"
+  },
+  {
+    "name": "Ethiopian Civil Service University",
+    "code": "ECSU"
+  },
+  {
+    "name": "Haramaya University",
+    "code": "HARU"
+  },
+  {
+    "name": "Hawassa University",
+    "code": "HAWU"
+  },
+  {
+    "name": "Jigjiga University",
+    "code": "JGU"
+  },
+  {
+    "name": "Jimma University",
+    "code": "JMU"
+  },
+  {
+    "name": "Madda Walabu University",
+    "code": "MWU"
+  },
+  {
+    "name": "Mekelle Institute of Technology",
+    "code": "MIOT"
+  },
+  {
+    "name": "Mekelle University",
+    "code": "MKU"
+  },
+  {
+    "name": "Mettu University",
+    "code": "MEU"
+  },
+  {
+    "name": "Mizan Tepi University",
+    "code": "MTU"
+  },
+  {
+    "name": "Oromia State University",
+    "code": "OSU"
+  },
+  {
+    "name": "Rift Valley University",
+    "code": "RVU"
+  },
+  {
+    "name": "Semera University",
+    "code": "SMU"
+  },
+  {
+    "name": "Unity University",
+    "code": "UNU"
+  },
+  {
+    "name": "University of Gondar",
+    "code": "UOG"
+  },
+  {
+    "name": "Wachamo University",
+    "code": "WAU"
+  },
+  {
+    "name": "Wolaita Sodo University",
+    "code": "WSU"
+  },
+  {
+    "name": "Woldia University",
+    "code": "WLDU"
+  },
+  {
+    "name": "Wolkite University",
+    "code": "WKU"
+  },
+  {
+    "name": "Wollega University",
+    "code": "WLGU"
+  },
+  {
+    "name": "Wollo University",
+    "code": "WOLU"
+  }
+]

@@ -1,0 +1,134 @@
+  <Box
+        style={{
+          marginTop: theme.spacing(5),
+          marginBottom: theme.spacing(5),
+          display: 'flex',
+          flex: 1,
+          flexDirection:'column'
+          overflow: 'hidden',
+        }}
+        // display="none"
+        // flexWrap="wrap"
+        // bgcolor="red"
+        // maxWidth="calc(100% - 80px)"
+      >
+        <Box
+          style={{ width: '600px' }}
+          border="1px solid"
+          borderColor={theme.palette.divider}
+          display="flex"
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+          borderRadius={theme.shape.borderRadius}
+        >
+          <Typography
+            variant="h4"
+            color="primary"
+            style={{
+              fontWeight: 'bold',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              marginTop: theme.spacing(1),
+            }}
+          >
+            1,000{' '}
+            <Typography
+              variant="h6"
+              style={{ fontWeight: 'bold', marginLeft: theme.spacing(1) }}
+            >
+              Birr
+            </Typography>
+          </Typography>
+
+          <Typography
+            color="textSecondary"
+            variant="h5"
+            style={{ fontWeight: 'bold' }}
+          >
+            Current Balance
+          </Typography>
+        </Box>
+
+        <Box
+          style={{ width: '600px' }}
+          border="1px solid"
+          borderColor={theme.palette.divider}
+          display="flex"
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+          borderRadius={theme.shape.borderRadius}
+        >
+          <Typography
+            variant="h4"
+            color="primary"
+            style={{
+              fontWeight: 'bold',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              marginTop: theme.spacing(1),
+              // color: theme.palette.success.dark,
+            }}
+          >
+            {/* 1,000{' '}
+              <Typography
+                variant="h6"
+                style={{ fontWeight: 'bold', marginLeft: theme.spacing(1) }}
+              >
+                Birr
+              </Typography> */}
+            Active
+          </Typography>
+
+          <Typography
+            color="textSecondary"
+            variant="h5"
+            style={{ fontWeight: 'bold' }}
+          >
+            Account Status
+          </Typography>
+        </Box>
+
+        <Box
+          style={{ width: '600px' }}
+          border="1px solid"
+          borderColor={theme.palette.divider}
+          display="flex"
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+          borderRadius={theme.shape.borderRadius}
+        >
+          <Typography
+            variant="h4"
+            color="primary"
+            style={{
+              fontWeight: 'bold',
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              marginTop: theme.spacing(1),
+            }}
+          >
+            {/* 1,000{' '}
+              <Typography
+                variant="h6"
+                style={{ fontWeight: 'bold', marginLeft: theme.spacing(1) }}
+              >
+                Birr
+              </Typography> */}
+            2
+          </Typography>
+
+          <Typography
+            color="textSecondary"
+            variant="h5"
+            style={{ fontWeight: 'bold' }}
+          >
+            Unaproved Fields
+          </Typography>
+        </Box>
+      </Box>

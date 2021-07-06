@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  frontend-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dade-web:latest
+    container_name: dade-web
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      COMPOSE_HTTP_TIMEOUT: 200
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/build
+    command: yarn serve
+    network_mode: 'host'
